@@ -8,6 +8,6 @@
 import Foundation
 
 public struct Student {
-    var name = "Bob"
-    var gender = "male"
+    public var name = "Bob"
+    public var gender = "male"
 }
