@@ -21,7 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "MyFirstLibrary",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources/MyFirstLibrary"),
         .testTarget(
             name: "MyFirstLibraryTests",
             dependencies: ["MyFirstLibrary"]),
