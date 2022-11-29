@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Student {
+public struct Student {
     var name = "Bob"
     var gender = "male"
 }

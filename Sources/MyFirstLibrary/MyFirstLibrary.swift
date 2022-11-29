@@ -1,7 +1,7 @@
 public struct MyFirstLibrary {
-    public private(set) var text = "Hello, World!"
+    public private(set) var text = "Hello, China!"
 
     public init() {
-        print("text\(text)")
+        print("text-:\(text)")
     }
 }
