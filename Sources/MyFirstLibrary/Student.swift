@@ -10,4 +10,6 @@ import Foundation
 public struct Student {
     public var name = "Bob"
     public var gender = "male"
+    
+    public init() {}
 }
